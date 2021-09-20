@@ -11,17 +11,52 @@
             margin: 0;
             padding: 0;
         }
+        .navbar {
+            background: rgba(155, 100, 250, 0.5);
+        }
         .heading1 {
-            background-color: rgba(155, 100, 250, 0.5);
-            color: rosybrown;
+            /* background-color: rgba(155, 100, 250, 0.5); */
+            /* color: #333; */
+            /* padding: 20px 0px; */
+            /* text-align: center; */
+            font-weight: 500;
+            /* text-transform: uppercase; */
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            display: block;
+        }
+        a:hover {
+            color: #666;
+            background-color: black;
+        }
+        .flex-item {
+            display: flex;
+            width: 50%;
+
+            /* background-color: rgba(155, 100, 250, 0.5); */
+            color: #333;
             padding: 20px 0px;
             text-align: center;
-            font-weight: 500;
+            /* font-weight: 500; */
             text-transform: uppercase;
         }
     </style>
 </head>
 <body>
-    <h1 class="heading1">Welcome to Github Learing</h1>
+    <nav class="navbar">
+        <div class="container flex-item">
+            <h1 class="heading1">Welcome to Github Learing</h1>
+            <a href="#">About</a>
+        </div>
+    </nav>
 </body>
 </html>
